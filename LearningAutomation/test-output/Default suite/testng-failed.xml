@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ListenerDemo.MyFirsttesting">
+      <class name="sampleExtentreport.ExtendReportTestNG">
         <methods>
-          <include name="OpeningEdgebrowser"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- ListenerDemo.MyFirsttesting -->
+      </class> <!-- sampleExtentreport.ExtendReportTestNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
