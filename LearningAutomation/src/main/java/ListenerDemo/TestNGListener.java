@@ -4,6 +4,8 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 
 public class TestNGListener implements ITestListener {
+	
+	
 	public void onTestFailure(ITestResult result) {
 		System.out.println("Test cases failed and testcase details are :" + result.getName());
 	}
