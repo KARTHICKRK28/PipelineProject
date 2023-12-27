@@ -2,36 +2,34 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-22T15:02:26 IST" name="Default suite" finished-at="2023-12-22T15:02:26 IST" duration-ms="63">
+  <suite started-at="2023-12-27T12:50:59 IST" name="Default suite" finished-at="2023-12-27T12:52:43 IST" duration-ms="104327">
     <groups>
     </groups>
-    <test started-at="2023-12-22T15:02:26 IST" name="Default test" finished-at="2023-12-22T15:02:26 IST" duration-ms="63">
-      <class name="sampleExtentReport2.MyTest">
-        <test-method is-config="true" signature="StartReport()[pri:0, instance:sampleExtentReport2.MyTest@33bc72d1]" started-at="2023-12-22T15:02:26 IST" name="StartReport" finished-at="2023-12-22T15:02:26 IST" duration-ms="225" status="PASS">
+    <test started-at="2023-12-27T12:50:59 IST" name="Default test" finished-at="2023-12-27T12:52:43 IST" duration-ms="104327">
+      <class name="utils.LearnDataProvider">
+        <test-method signature="login([Ljava.lang.String;)[pri:0, instance:utils.LearnDataProvider@4b013c76]" started-at="2023-12-27T12:51:00 IST" name="login" data-provider="getData" finished-at="2023-12-27T12:51:52 IST" duration-ms="52440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@751ae8a4]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- StartReport -->
-        <test-method is-config="true" signature="SetInputData()[pri:0, instance:sampleExtentReport2.MyTest@33bc72d1]" started-at="2023-12-22T15:02:26 IST" name="SetInputData" finished-at="2023-12-22T15:02:26 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- login -->
+        <test-method signature="login([Ljava.lang.String;)[pri:0, instance:utils.LearnDataProvider@4b013c76]" started-at="2023-12-27T12:51:52 IST" name="login" data-provider="getData" finished-at="2023-12-27T12:52:43 IST" duration-ms="50975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@58d6e55a]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SetInputData -->
-        <test-method is-config="true" signature="Initiatingtest()[pri:0, instance:sampleExtentReport2.MyTest@33bc72d1]" started-at="2023-12-22T15:02:26 IST" name="Initiatingtest" finished-at="2023-12-22T15:02:26 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Initiatingtest -->
-        <test-method signature="MyTest2()[pri:0, instance:sampleExtentReport2.MyTest@33bc72d1]" started-at="2023-12-22T15:02:26 IST" name="MyTest2" finished-at="2023-12-22T15:02:26 IST" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MyTest2 -->
-        <test-method signature="MyTest1()[pri:1, instance:sampleExtentReport2.MyTest@33bc72d1]" started-at="2023-12-22T15:02:26 IST" name="MyTest1" finished-at="2023-12-22T15:02:26 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MyTest1 -->
-        <test-method is-config="true" signature="StopReport()[pri:0, instance:sampleExtentReport2.MyTest@33bc72d1]" started-at="2023-12-22T15:02:27 IST" name="StopReport" finished-at="2023-12-22T15:02:27 IST" duration-ms="297" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- StopReport -->
-      </class> <!-- sampleExtentReport2.MyTest -->
+        </test-method> <!-- login -->
+      </class> <!-- utils.LearnDataProvider -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

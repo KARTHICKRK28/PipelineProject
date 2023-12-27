@@ -10,7 +10,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ReadExcel {
 
-	public static void main(String[] args) throws IOException {
+	public static String[][] getExceldata() throws IOException {
 		// TODO Auto-generated method stub
 
 		String fileLocation = "./test data/Login-Data.xlsx";
@@ -22,6 +22,7 @@ public class ReadExcel {
 		System.out.println("No of rows:" + lastRowNum);
 		short lastCellNum = sheet.getRow(0).getLastCellNum();
 		System.out.println("No of Cells: " + lastCellNum);
+		String[][] data=new String[lastRowNum][lastCellNum];
 		for (int i = 1; i <= lastRowNum; i++) {
 			XSSFRow row = sheet.getRow(i);
 			for (int j = 0; j < lastCellNum; j++) {
@@ -29,11 +30,13 @@ public class ReadExcel {
 				DataFormatter dsf = new DataFormatter();
 				String formatCellValue = dsf.formatCellValue(column);
 				// String stringCellValue = column.getStringCellValue();
-				System.out.println(formatCellValue);
+				//System.out.println(formatCellValue);
+				data[i-1][j]=formatCellValue;
 			}
 
 		}
 		wfbook.close();
+		return data;
 
 	}
 }

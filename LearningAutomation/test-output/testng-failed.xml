@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="sampleExtentreport.ExtendReportTestNG">
+      <class name="utils.LearnDataProvider">
         <methods>
-          <include name="setup"/>
-          <include name="teardown"/>
-          <include name="test1"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- sampleExtentreport.ExtendReportTestNG -->
+      </class> <!-- utils.LearnDataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
