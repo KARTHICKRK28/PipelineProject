@@ -11,6 +11,7 @@ import pages.LoginPage;
 public class TestCasesAlloperation {
 
 	public static void main(String[] args) throws InterruptedException {
+		
 		WebDriverManager.chromedriver().setup();
 	//	System.setProperty("webdriver.chrome.driver", "");
 		WebDriver driver = new ChromeDriver();
@@ -39,6 +40,7 @@ public class TestCasesAlloperation {
 		Thread.sleep(3000);
 
 		// Capture the page heading and print on console
+		//System.out.println("Search Content is --- " + search);
 		System.out.println("The page heading is --- " + dashboard.getHeading());
 
 		// Click on Logout button

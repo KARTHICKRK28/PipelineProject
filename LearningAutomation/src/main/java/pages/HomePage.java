@@ -18,6 +18,7 @@ public class HomePage {
 	// Locator for login button
 	By LoginBtn = By.id("login");
 
+	
 	// Method to click login button
 	public void clickLogin() {
 		driver.findElement(LoginBtn).click();
